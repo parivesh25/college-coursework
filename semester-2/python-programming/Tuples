@@ -1,1 +1,41 @@
+[15:52, 1/29/2026] Pratham Aggarwal: 
+TUPLES
+1. Tuples are immutable.
+2. It is used to multiple items in a single variable.
+3. It is ordered and inchangable.
+4. It allows duplicate elements.
 
+CHANGES IN TUPLES
+We can make changes in tuple by type casting it to list and then we can make changes and modify the tuple by the list fucntions
+after converting it to list
+
+UNPACKING OF A TUPLES
+converting a tuple into variables
+Eg. animals = ('cat','dog','bear')
+    (var1,var2,var3) = animals
+    print(var1)
+    print(var2)
+    print(var3)
+
+METHOD OF TUPLES
+1. count() - no. of times a specific value is occuring in a tuple.
+Syntax:  <tuple>.count(<item>)
+
+2. index() - position of a specific value in a tuple.
+Syntax: <tuple>.index(<index>)
+
+CONCATENATION OF TUPLE
+Tuples can be merged
+Eg. animals = ("zebra","horse","cat","dog","lion")
+    birds = ("Peacock", "Chicken", "Ostrich", "DODO")
+    animals += birds
+    print(animals)
+    print(birds)
+[15:56, 1/29/2026] Pratham Aggarwal: 
+REPLICATION OF A TUPLE
+we can replicate the tuple multiple times by multiplication operator
+Eg. animals = ("zebra","horse","cat","dog","lion")
+    birds = ("Peacock", "Chicken", "Ostrich", "DODO")
+
+    three = animals * 4
+    print(three)
